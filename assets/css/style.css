@@ -210,6 +210,16 @@ nav a:first-child{
 
 }
 @media screen and (max-width: 768px){
+    .nameandlinks{
+        margin-left: 15px;
+        width: 700px;
+    }
+    
+    nav{
+    margin-top: 40px;
+    margin-right: 50px;
+    float: right;
+    }
 
 }
 @media screen and (max-width: 640px){
