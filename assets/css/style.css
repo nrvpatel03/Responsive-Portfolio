@@ -178,50 +178,78 @@ nav a:first-child{
 }
 
 @media screen and (max-width: 980px){
+    .sectionContainers{
+        width:100%;
+    }
+
     .nameandlinks{
-        margin-left: 15px;
+        width:100%;
     }
     
     nav{
-    margin-top: 40px;
-    margin-right: 50px;
     float: right;
+    width: 33%;
     }
 
     
     .section{
-        margin-left: 15px;
-        padding-left: 15px;
-        padding-right: 15px;
-        height: 650px;
-        width: 640px;
-        background:#ffffff;
+        width:60%;
         float:left; 
-    }
-    .formLabels{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: large;
-        padding-bottom: 10px;
     }
     
     .inputs{
-        width: 630px;
+        width: 100%;
     }
 
 }
 @media screen and (max-width: 768px){
+    .sectionContainers{
+        width: 100%;
+    }
+
+    .section{
+        width: 90%;
+        float:left; 
+    }
+
     .nameandlinks{
-        margin-left: 15px;
-        width: 700px;
+        width: 100%;
     }
     
     nav{
     margin-top: 40px;
-    margin-right: 50px;
     float: right;
+    width: 40%;
     }
 
 }
 @media screen and (max-width: 640px){
+    .sectionContainers{
+        width: 100%;
+    }
+    .nameHeader{
+        width:100%;
+        text-align: center;
+    }
+    .section{
+        float:left; 
+    }
+
+    nav{
+        margin-top: 40px;
+        float: right;
+        width:100%;
+        text-align: center;
+        }
+
+    .nameandlinks{
+        margin: 0 auto;
+        height: 90px;
+        width: 100%;
+        background: #ffffff;
+    }       
+    .inputs{
+        width: 100%;
+    }
 
 }
