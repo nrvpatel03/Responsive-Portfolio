@@ -227,6 +227,19 @@ nav a:first-child{
     .sectionContainers{
         width: 100%;
     }
+    #time4colorboximagediv{
+        margin-top: 30px;
+        position: relative;
+        width: 100%;
+    }
+    #time4colorboximage{
+        width: 100%;
+    }
+    #time4colorboxText{
+        top:85%;
+    }
+
+    
     .nameHeader{
         width:100%;
         text-align: center;
@@ -240,6 +253,7 @@ nav a:first-child{
         float: right;
         width:100%;
         text-align: center;
+        margin-bottom: 40px;
         }
 
     .nameandlinks{
